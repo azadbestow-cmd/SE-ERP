@@ -1,0 +1,201 @@
+[ +213 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [C:\flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[ +260 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-06-24 11:07:06 -0700
+[  +24 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +88 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +125 ms] Skipping pub get: version match.
+[ +168 ms] Found plugin qr_code_scanner at C:\Users\najee\AppData\Local\Pub\Cache\hosted\pub.dev\qr_code_scanner-1.0.1\
+[ +146 ms] Found plugin qr_code_scanner at C:\Users\najee\AppData\Local\Pub\Cache\hosted\pub.dev\qr_code_scanner-1.0.1\
+[  +39 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +68 ms] Found plugin qr_code_scanner at C:\Users\najee\AppData\Local\Pub\Cache\hosted\pub.dev\qr_code_scanner-1.0.1\
+[  +20 ms] Generating C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[   +9 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +5 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +4 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +3 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +5 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[ +139 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +242 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.10" 2026-01-20
+           OpenJDK Runtime Environment (build 21.0.10+-14961533-b1163.108)
+           OpenJDK 64-Bit Server VM (build 21.0.10+-14961533-b1163.108, mixed mode)
+[  +14 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +4 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[ +251 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[        ] openjdk 21.0.10 2026-01-20
+           OpenJDK Runtime Environment (build 21.0.10+-14961533-b1163.108)
+           OpenJDK 64-Bit Server VM (build 21.0.10+-14961533-b1163.108, mixed mode)
+[   +1 ms] Version of Java is different than impacted version, no migration attempted.
+[   +5 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[  +11 ms] The developer has already configured the Built-In Kotlin flag, skipping migration.
+[   +5 ms] The developer has already configured the new DSL flag, skipping migration.
+[  +17 ms] Using gradle from C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\gradlew.bat.
+[  +20 ms] LocalFile: 'C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +1 ms] LocalFile: 'C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\settings.gradle.kts' provides AGP version: 9.0.1
+[  +10 ms] Running Gradle task 'assembleDebug'...
+[   +3 ms] executing: [C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android/] C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDQuNA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049YWQ3MGVjNDYxNw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049YTEwZDhhYzM4ZA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMi4y -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false -Psplit-per-abi=true assembleDebug
+[+1856 ms] Initialized native services in: C:\Users\najee\.gradle\native
+[   +1 ms] Initialized jansi services in: C:\Users\najee\.gradle\native
+[ +633 ms] The client will now receive all logging from the daemon (pid: 12000). The daemon log file: C:\Users\najee\.gradle\daemon\9.1.0\daemon-12000.out.log
+[        ] Starting 7th build in daemon [uptime: 14 mins 20.051 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 4% of 4 GiB]
+[        ] Using 8 worker leases.
+[        ] Now considering [C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android, C:\flutter\packages\flutter_tools\gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[ +106 ms] Starting Build
+[        ] Now considering [C:\flutter\packages\flutter_tools\gradle, C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android] as hierarchies to watch
+[ +306 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file 'C:\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '6.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.2.20']
+[        ] Build 3b4baf46-74cd-4945-baa3-e2ff081e242a is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] WARNING: Unsupported Kotlin plugin version.
+[        ] The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.2.0` that might work differently than in the requested version `2.2.20`.
+[        ] file or directory 'C:\flutter\packages\flutter_tools\gradle\src\main\java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '9.0.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.8.22', apply: false]
+[  +88 ms] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#520,Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#520,Execution worker,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#520,Execution worker,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#520,Execution worker,5,main]) started.
+[ +102 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#520,Execution worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[#520,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#520,Execution worker,5,main]) started.
+[   +3 ms] :gradle:compileGroovy (Thread[#525,Execution worker Thread 6,5,main]) started.
+[   +1 ms] > Task :gradle:compileGroovy NO-SOURCE
+[   +2 ms] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#525,Execution worker Thread 6,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#525,Execution worker Thread 6,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[   +3 ms] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#525,Execution worker Thread 6,5,main]) started.
+[        ] :gradle:processResources (Thread[#525,Execution worker Thread 6,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#525,Execution worker Thread 6,5,main]) started.
+[        ] :gradle:classes (Thread[#525,Execution worker Thread 6,5,main]) started.
+[   +1 ms] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#525,Execution worker Thread 6,5,main]) started.
+[   +3 ms] :gradle:jar (Thread[#525,Execution worker Thread 6,5,main]) started.
+[  +58 ms] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[   +1 ms] Skipping task ':gradle:jar' as it is up-to-date.
+[ +290 ms] Settings evaluated using settings file 'C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\settings.gradle.kts'.
+[ +114 ms] Projects loaded. Root project using build file 'C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':qr_code_scanner']
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file 'C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\build.gradle.kts'.
+[  +87 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file 'C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\app\build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Build a135d11a-f79b-4ff4-911d-72007be63051 is started
+[   +1 ms] Using default execution profile
+[ +196 ms] Build 3b4baf46-74cd-4945-baa3-e2ff081e242a is closed
+[   +4 ms] Build a135d11a-f79b-4ff4-911d-72007be63051 is closed
+[   +6 ms] 4 actionable tasks: 4 up-to-date
+[        ] Watched directory hierarchies: [C:\flutter\packages\flutter_tools\gradle]
+[ +174 ms] Running Gradle task 'assembleDebug'... (completed in 4.3s)
+[  +23 ms] 
+           ┌─ Flutter Fix ────────────────────────────────────────────────────────────────────────┐
+           │ [!] Starting AGP 9+, only the new DSL interface will be read.                        │
+           │ This results in a build failure when applying the Flutter Gradle plugin at           │
+           │ C:\Users\najee\OneDrive\Documents\SE-ERP\SE-Mobile\android\app\build.gradle.kts.     │
+           │                                                                                      │
+           │ To resolve this update flutter or opt out of `android.newDsl`.                       │
+           │ For instructions on how to opt out, see:                                             │
+           │ https://developer.android.com/build/releases/agp-9-0-0-release-notes                 │
+           │                                                                                      │
+           │ If you are not upgrading to AGP 9+, run `flutter analyze --suggestions` to check for │
+           │ incompatible dependencies.                                                           │
+           └──────────────────────────────────────────────────────────────────────────────────────┘
+
+[  +16 ms] "flutter apk" took 5,800ms.
+[        ] Running 1 shutdown hook
+[   +3 ms] Shutdown hooks complete
+[ +271 ms] exiting with code 1

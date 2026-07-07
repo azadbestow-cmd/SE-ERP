@@ -1,0 +1,113 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+
+}
+
+// Phase 1: Foundation Models
+model User {
+  id       String @id @default(uuid())
+  username String @unique
+  password String
+  roleId   String
+  role     Role   @relation(fields: [roleId], references: [id])
+}
+
+model Role {
+  id          String       @id @default(uuid())
+  name        String       @unique
+  users       User[]
+  permissions Permission[]
+}
+
+model Permission {
+  id    String @id @default(uuid())
+  name  String @unique
+  roles Role[]
+}
+
+// Phase 2: Finance Engine
+model AccountType {
+  id       String    @id @default(uuid())
+  name     String    @unique
+  accounts Account[]
+}
+
+model Account {
+  id            String      @id @default(uuid())
+  name          String
+  accountTypeId String
+  accountType   AccountType @relation(fields: [accountTypeId], references: [id])
+  journalLines  JournalLine[] // Yeh lazmi hai
+}
+
+model JournalLine {
+  id        String  @id @default(uuid())
+  journalId String
+  journal   Journal @relation(fields: [journalId], references: [id])
+  accountId String
+  account   Account @relation(fields: [accountId], references: [id])
+  debit     Float   @default(0)
+  credit    Float   @default(0)
+}
+
+model JournalLine {
+  id        String  @id @default(uuid())
+  journalId String
+  journal   Journal @relation(fields: [journalId], references: [id])
+  accountId String
+  account   Account @relation(fields: [accountId], references: [id])
+  debit     Float   @default(0)
+  credit    Float   @default(0)
+}
+
+// Phase 3: Service & Operations
+model Machine {
+  id        String          @id @default(uuid())
+  serial    String          @unique
+  modelName String
+  tickets   ServiceTicket[]
+}
+
+model ServiceTicket {
+  id          String           @id @default(uuid())
+  machineId   String
+  machine     Machine          @relation(fields: [machineId], references: [id])
+  status      String
+  description String
+  createdAt   DateTime         @default(now())
+  engineerId  String?
+  engineer    ServiceEngineer? @relation(fields: [engineerId], references: [id])
+}
+
+model ServiceEngineer {
+  id      String          @id @default(uuid())
+  name    String
+  tickets ServiceTicket[]
+}
+
+model Part {
+  id    String @id @default(uuid())
+  name  String
+  stock Int    @default(0)
+}
+
+// Phase 4: Visitor & QR Management
+model Visitor {
+  id      String   @id @default(uuid())
+  name    String
+  cnic    String
+  purpose String
+  inTime  DateTime @default(now())
+  qrCode  String   @unique
+}
+
+model SecurityLog {
+  id        String   @id @default(uuid())
+  action    String
+  timestamp DateTime @default(now())
+  visitorId String
+}
