@@ -1,12 +1,17 @@
 import { useState } from 'react';
+import { loginUser } from './auth/login'; // Yeh import add karein
 
 function App() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLogin = () => {
-    console.log("Login clicked for:", username);
-    // Yahan hum baad mein loginUser function connect karenge
+  const handleLogin = async () => {
+    try {
+      const user = await loginUser(username, password);
+      alert("Welcome " + user.username);
+    } catch (error) {
+      alert("Login Failed!");
+    }
   };
 
   return (
